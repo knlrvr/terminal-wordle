@@ -30,7 +30,7 @@ function getRandomWord() {
 
 function renderBoard() {
   console.clear();
-  console.log('Welcome to Wordle Clone!\n');
+  console.log('Welcome to Terminal Wordle!\n');
 
   const boardWidth = WORD_LENGTH * 2 + 1; // Emoji width + spaces
   const guessWidth = WORD_LENGTH + 1; // Word length + space
